@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SettingsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/lifeStorySwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="LIFE STORY LINES \n show family story lines" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <Switch
+                android:id="@+id/familyTreeSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="FAMILY TREE LINES \n show family tree lines" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <Switch
+                android:id="@+id/spouseLinesSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="SPOUSE LINES \n show spouse lines" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <Switch
+                android:id="@+id/fatherSideSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="FATHER'S SIDE \n filter by father's side of family" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <Switch
+                android:id="@+id/motherSideSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="MOTHER'S SIDE \n filter by mother's side of family" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <Switch
+                android:id="@+id/maleEventsSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="MALE EVENTS \n filter events based on gender" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <Switch
+                android:id="@+id/femaleEventsSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="FEMALE EVENTS \n filters events based on gender" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/logOut"
+                android:text="LOGOUT \n return to login screen" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
